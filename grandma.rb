@@ -1,8 +1,8 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(phrase)
-  if phrase.match (/[a-z]/)
+  if phrase.downcase (/[a-z]/)
     puts "HUH?! SPEAK UP SONNY!"
-  elsif phrase.match (/[A-Z]/)
+  elsif phrase.upcase
     puts "NO, NOT SINCE 1938!"
   elsif phrase = "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
