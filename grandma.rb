@@ -1,10 +1,10 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(phrase)
-  if speak_to_grandma == [a-z]
-    puts "#{phrase = "HUH?! SPEAK UP SONNY!"}"
+  if phrase == [a-z]
+    puts "HUH?! SPEAK UP SONNY!"
   elsif speak_to_grandma == [A-Z]
     puts "#{phrase = "NO, NOT SINCE 1938!"}"
-  else
+  elsif 
   end
   
 end
