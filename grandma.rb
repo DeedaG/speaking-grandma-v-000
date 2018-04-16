@@ -1,6 +1,6 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(phrase)
-  if phrase.downcase == true
+  if phrase.scan(/[a-z]/) == true
     puts "HUH?! SPEAK UP SONNY!"
   elsif phrase.upcase == true
     puts "NO, NOT SINCE 1938!"
