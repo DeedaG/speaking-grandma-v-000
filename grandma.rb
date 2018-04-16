@@ -1,7 +1,9 @@
 # Write a speak_to_grandma method.
-def speak_to_grandma(phrase = "HUH?! SPEAK UP SONNY!")
-  if
+def speak_to_grandma(phrase)
+  if speak_to_grandma == [a-z]
     puts "#{phrase}"
+  elsif speak_to_grandma == [A-Z]
+    puts
 end
 
 # Whatever you say to grandma, she should respond with
