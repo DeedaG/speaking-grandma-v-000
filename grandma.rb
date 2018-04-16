@@ -4,6 +4,9 @@ def speak_to_grandma(phrase)
     puts "#{phrase = "HUH?! SPEAK UP SONNY!"}"
   elsif speak_to_grandma == [A-Z]
     puts "#{phrase = "NO, NOT SINCE 1938!"}"
+  else
+  end
+  
 end
 
 # Whatever you say to grandma, she should respond with
