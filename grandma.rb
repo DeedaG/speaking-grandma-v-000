@@ -9,7 +9,6 @@ def speak_to_grandma(phrase)
   else
 
   end
-
 end
 
 # Whatever you say to grandma, she should respond with
