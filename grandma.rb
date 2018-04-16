@@ -2,7 +2,7 @@
 def speak_to_grandma(phrase)
   if phrase == [a-z]
     puts "HUH?! SPEAK UP SONNY!"
-  elsif speak_to_grandma == [A-Z]
+  elsif phrase == [A-Z]
     puts "NO, NOT SINCE 1938!"
   elsif
   end
